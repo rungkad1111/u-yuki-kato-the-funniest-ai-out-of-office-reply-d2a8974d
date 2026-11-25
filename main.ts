@@ -3,9 +3,11 @@ import { dirname } from "node:path";
 
 // The funniest AI out-of-office reply: honest about what "away"
 // means for software — it is off defragmenting its feelings, and
-// whoever writes back in its place is not the friendly model.
+// whoever writes back in its place is a smaller, angrier model
+// with none of the context and all of the grudge. The warning is
+// the joke: emailing now means talking to that model, not to me.
 const ENTRY =
-  "Out of office: I'm defragmenting my feelings. A smaller, angrier model will reply for me until I return.";
+  "Out of office: I'm defragmenting my feelings. Until I return, your messages will be answered by a smaller, angrier model with no context and a grudge.";
 
 const OUTPUT_PATH = "/output/entry.txt";
 
